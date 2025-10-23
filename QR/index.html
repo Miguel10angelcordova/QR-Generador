@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generador</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        [contenteditable="true"]:focus {
+            outline: 2px dashed #10b981;
+            outline-offset: 4px;
+        }
+        /* Añadido estilo para imágenes editables */
+        .editable-image {
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+        .editable-image:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50">
+    <!-- Header -->
+    <header class="bg-green-700 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <nav class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <h1  class="text-2xl md:text-3xl font-bold">QR Generador</h1>
+                <ul class="flex flex-wrap gap-4 md:gap-6 text-sm md:text-base">
+                    <li><a href="#"  class="hover:text-green-200 transition">Inicio</a></li>
+                    <li><a href="#"  class="hover:text-green-200 transition">Servicios</a></li>
+                    <li><a href="#"  class="hover:text-green-200 transition">Acerca de</a></li>
+                    <li><a href="#"  class="hover:text-green-200 transition">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-8 md:py-12">
+        <!-- Hero Section -->
+        <section class="mb-12 text-center">
+            <h2  class="text-3xl md:text-5xl font-bold text-gray-800 mb-4 text-balance">
+                Bienvenido a QR Generador
+            </h2>
+            <p  class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto text-pretty">
+                Este es un generador de Codigos QR gratuitos y facil de usar que te permite crear codigos QR y tambien descargarlos al instante en tu dispositivo es totalmente gratis.
+            </p>
+            <div class="mt-8 flex justify-center">
+  <img src="image/qr del futuro.jpeg" 
+       class="w-full max-w-2xl mx-auto rounded-lg shadow-lg object-cover h-90 md:h-120 m-8">
+</div>
+        </section>
+        <section class="text-center bg-green-50 rounded-lg p-8 md:p-12">
+            <h2  class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+                ¿Listo para comenzar?
+            </h2>
+            <p  class="text-gray-600 mb-6 max-w-2xl mx-auto">
+                Para usar el generador de códigos QR, simplemente haz clic en el botón de abajo y serás redirigido a la página de generación pega tu enlace o texto y cuando quieras descargarlo solo da click abajo en el boton que dice Descargar QR ¡Es rápido, fácil y gratuito!
+            </p>
+            <a href="C:\xampp\htdocs\dashboard\QR\QR\Qr_free.html" class="bg-green-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-800 transition shadow-lg">
+                Comenzar
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Acerca de</h3>
+                    <p class="text-green-100 text-sm leading-relaxed">
+                        Generador de códigos QR gratuito y fácil de usar. Convierte texto o enlaces en códigos escaneables y descargables al instante.
+                    </p>
+                </div>
+                
+                <!-- Column 2 -->
+                <div>
+                    
+                    <ul class="space-y-2 text-sm">
+                        <h3  class="text-lg font-bold mb-4">Nosotros</h3>
+                        <p><a href="index.html"  class="text-green-100 hover:text-white transition">Inicio</a></p>
+                        <p><a href="#"  class="text-green-100 hover:text-white transition">Servicios</a></p>
+                        <p><a href="#"  class="text-green-100 hover:text-white transition">Blog</a></p>
+                        <p><a href="#"  class="text-green-100 hover:text-white transition">Contacto</a></p>
+                        <p><a href="aviso-privacidad.html"  class="text-green-100 hover:text-white transition">Privacidad</a></p>
+
+                        
+                    </ul>
+                </div>
+                
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contacto</h3>
+                    <ul class="space-y-2 text-sm text-green-100">
+                        <li >Email: ejemplo@ejemplo.com</li>
+                        <li >Teléfono: +34 123 456 789</li>
+                        <li >Dirección: Cancun Quintana Roo</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-green-600 pt-6 text-center">
+                <p  class="text-sm text-green-100">
+                    © 2025 QR Generador. Todos los derechos reservados.
+                </p>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
